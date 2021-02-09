@@ -1,0 +1,76 @@
+body{
+    background: black;
+    font-family: 'Yusei Magic', sans-serif;
+}
+#postcard{ 
+width: 500px; 
+height: 320px; 
+background-color: white;
+padding: 15px;
+margin: 50px auto;
+}
+
+.postcard-header img{
+max-width: 60px;
+float: right;
+padding: 10px;
+}
+
+.postcard-header h1{
+float: left;
+padding-left: 10px;
+}
+h1{
+font-size: 30px;
+color: black
+}
+.postcard-header{
+background-color: white;
+overflow: hidden;
+}
+
+.postcard-content{
+display: flex;
+overflow: hidden;
+}
+.text{
+float:left;
+background-color: white;
+width: 64%;
+padding: 10px;
+text-align: justify;   
+}
+
+.dedication{
+    float:right;
+    padding: 5px;
+    align-content: center;
+    
+}
+
+.dedication input{
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    font-family: 'Yusei Magic', sans-serif;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+footer input{
+    background-color: darkgray;
+    align-items: center;
+    border: 1px solid black;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    justify-content:start;
+}
